@@ -1,13 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
-    list-style-type: none;
+    padding: 0;    
     box-sizing: border-box;
 }
 
 .logo{
     text-align: end;
     line-height: 0;
+    background-color: #D9D9D9;
 }
 
 .logo img{
@@ -45,6 +45,11 @@ nav ul li:hover{
     background-color: #A683C6;
     transition: ease-in-out 0.7s;
     cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .destaques{
@@ -110,7 +115,7 @@ footer{
     width: 400px;
     display: flex;
     justify-content: space-evenly;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 10px;
     background-color: #D9D9D9;
     border-radius: 15px;
@@ -119,4 +124,127 @@ footer{
 footer img{
    width: 30px;
    cursor: pointer;
+}
+
+.box-emprestimos{
+    width: 600px;
+    min-height: 220px;
+    font-size: 0.9rem;
+    margin: 10px auto;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-emprestimos article{
+    width: 230px;
+    height: 170px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.box-emprestimos article p{
+    text-align: center;
+    color: #6A4B87;
+    margin: 10px;
+}
+
+.box-emprestimos article span{
+    text-align: center;
+    color: #6A4B87;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h3{
+    color: #6A4B87;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.simulador{
+    width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #6A4B87;
+    background-color: #D9D9D9;
+}
+
+.simulador select{
+    width: 180px;
+    padding: 6px;
+    border-radius: 10px;
+    color:#6A4B87
+}
+
+
+button, button a{
+    background-color: #6A4B87;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 105px;
+}
+
+input[type="radio"] {
+    accent-color: #6A4B87;
+}
+
+#consignado{
+    margin-left: 30px;
+}
+
+.resultado {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #B9A8C7;
+    background-color: white;
+    color: #6A4B87;
+}
+
+.faq{
+    width: 450px;
+    min-height: 300px;
+    margin: 30px auto;
+}
+details {
+    margin-bottom: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+summary {
+    background-color: #6A4B87;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details p {
+    padding: 15px;
+    border: 1px solid #B9A8C7;
+    background-color: #D9D9D9;
+    color: #6A4B87;
 }
