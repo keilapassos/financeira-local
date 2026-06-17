@@ -12,7 +12,7 @@ Este projeto foi desenvolvido com foco na prática de HTML5 e CSS3, reforçando 
 
 ### Página Inicial
 
-- Área de destaque para ofertas
+- Área de destaque para ofertas (simulação de carrossel de imagens)
 - Apresentação dos principais serviços
 - Navegação entre páginas
 - Rodapé com redes sociais e contatos
@@ -54,7 +54,7 @@ Este projeto foi desenvolvido com foco na prática de HTML5 e CSS3, reforçando 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/keilacred.git
+git clone https://github.com/keilapassos/financeira-local
 ```
 
 2. Abra o arquivo `index.html` no navegador.
