@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empréstimos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="emprestimos.html">Empréstimos</a></li>
+            <li><a href="sejacliente.html">Seja nosso cliente</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+
+        <div class="banner">
+          <img src="./img/sejacliente.png" alt="" />
+        </div>
+        <p class="descricao-cliente">
+          Na KeilaCred, trabalhamos para oferecer soluções financeiras que
+          atendam às suas necessidades com segurança, transparência e agilidade.
+          Seja para realizar um projeto, organizar suas finanças ou enfrentar
+          imprevistos, nossa equipe está pronta para ajudar você a encontrar a
+          melhor opção. Preencha o formulário abaixo e entraremos em contato
+          para apresentar as condições e serviços mais adequados ao seu perfil.
+        </p>
+
+        <h2>Seja nosso cliente</h2>
+
+        <form action="" class="sejacliente">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone" />
+          </div>
+
+          <div class="campo">
+            <label for="servico">Serviço desejado</label>
+            <select name="" id="servico">
+              <option value="">Selecione</option>
+              <option value="emprestimo-pessoal">Empréstimo Pessoal</option>
+              <option value="emprestimo-consignado">
+                Empréstimo Consignado
+              </option>
+              <option value="financiamento">Financiamento</option>
+              <option value="antecipacao">Antecipação de Recebíveis</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label>Aposentado?</label>
+            <div>
+              <input type="radio" name="aposentado" id="sim" value="sim" />
+              <label for="sim">Sim</label>
+
+              <input type="radio" name="aposentado" id="nao" value="nao" />
+              <label for="nao">Não</label>
+            </div>
+          </div>
+          <button type="button">
+            <a href="#">Cadastrar</a>
+          </button>
+        </form>
+
+        <footer>
+          <a href="#"><img src="./img/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="./img/linkedin.png" alt="linkedin" /></a>
+          <a href="#"><img src="./img/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="./img/whatsapp.png" alt="whatsapp" /></a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
